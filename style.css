@@ -1,0 +1,13 @@
+.container {
+    width: 900px;
+    height: 700px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    background: #cdcfcd;
+
+}
+circle {
+    fill: red;
+    stroke: black;
+    stroke-width: 2px;
+}

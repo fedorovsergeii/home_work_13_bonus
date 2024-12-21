@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+    <title>Title</title>
+</head>
+<body>
+
+  <div class="container">
+    <svg width="900" height="700" viewBox="0 0 900 700">
+      <path id="trajectory" d="M 10 15
+           L 810 530
+           L 580 610
+           L 400 10
+           L 220 610
+           L 10 300
+           L 500 10
+           L 810 320
+           L 420 610
+           Z" fill="none" stroke="none" />
+      <circle cx="40" cy="40" r="50">
+        <animateMotion dur="15s" repeatCount="indefinite">
+          <mpath href="#trajectory" />
+        </animateMotion>
+      </circle>
+    </svg>
+  </div>
+
+</body>
+</html>
